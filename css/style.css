@@ -1,0 +1,16 @@
+.blue {
+    width: 500px;
+    height: 500px;
+    background: blue;
+    margin: 0 auto;
+}
+button {
+    display: flex;
+    margin: 0 auto;
+}
+.text {
+    color: white;
+    background-color: red;
+    font-size: 24px;
+    border: 2px solid blue;
+}
