@@ -1,12 +1,17 @@
 .blue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 500px;
     height: 500px;
+    margin: -250px 0 0 -250px;
     background: blue;
-    margin: 0 auto;
 }
 button {
-    display: flex;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -50px;
 }
 .text {
     color: white;
