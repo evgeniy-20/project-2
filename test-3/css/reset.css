@@ -1,0 +1,29 @@
+/* reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 10px 0 10px 7px;
+    opacity: .7;
+}
+h1 {
+    padding: 10px 0 20px 7px;
+}
+h2 {
+    padding: 0 0 0 7px;
+}
+ul {
+    padding: 0 0 10px 50px;
+    color: #ff0404;
+}
+/* end reset */
