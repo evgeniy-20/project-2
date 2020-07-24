@@ -1,0 +1,156 @@
+/* reset  styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 0 7px;
+}
+
+h1 {
+    margin: 0 0 45px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.text-center {
+    text-align: center;
+}
+
+/* end reset */
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.main {
+    padding: 130px 0;
+}
+
+.row {
+    margin: 0 -10px;
+}
+
+.row::after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.col {
+    padding: 0 10px;
+    float: left;
+    width: calc(100% / 4);
+}
+
+.img-holder {
+    text-align: center;
+}
+
+.product-block {
+    position: relative;
+    display: block;
+    padding: 15px;
+    margin: 0 0 30px;
+    box-shadow: 1px 1px 1px 1px #e1e1e1;
+    padding: 30px 0 55px 0;
+    overflow: hidden;
+    transition: .3s ease-in-out box-shadow;
+}
+
+
+.product-block:hover img {
+    opacity: .7;
+}
+
+.product-block .img-holder {
+    height: 250px;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 0 0 15px;
+}
+
+.price {
+    color: #333;
+    font-size: 18px;
+    padding: 0 0 0 15px;
+}
+.labels-novelty::before {
+    position: absolute;
+    content: 'Новинка';
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 8px 8px 20px;
+    width: 60px;
+    top: 20px;
+    left: 0;
+    color: #fff;
+    background-color: #00a7b2;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    z-index: 1;
+}
+.labels-discounts::before {
+    position: absolute;
+    content: 'Скидка 15%';
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 8px 8px 20px;
+    width: 100px;
+    top: 20px;
+    left: 0;
+    color: #fff;
+    background-color: #ff6700;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    z-index: 1;
+}
+.labels-superPrice::before {
+    position: absolute;
+    content: 'Супер цена!';
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 8px 8px 20px;
+    width: 100px;
+    top: 20px;
+    left: 0;
+    color: #fff;
+    background-color:  #5a00ff;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    z-index: 1;
+}
