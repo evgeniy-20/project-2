@@ -1,14 +1,15 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 100%;
   height: 100%;
-  max-width: 330px;
+  max-width: 550px;
   position: fixed;
   top: 0;
-  left: 600px;
+  left: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,39 +23,39 @@
           justify-content: center;
 }
 
-.class {
-  background-color: #fcfaea;
-  border: 2px solid #d9caca;
+.square {
+  background-color: #ffffff;
+  border: 2px solid #fffff0;
   -webkit-box-shadow: 6px 6px 7px 0 #8e8e8c;
           box-shadow: 6px 6px 7px 0 #8e8e8c;
 }
 
-.title {
-  background-color: #c9bba0;
-  margin: 7px 0 0 5px;
+h1 {
+  color: #000;
+  padding: 10px 20px 0 10px;
 }
 
-.title h1 {
-  color: #442200;
-  font-size: 35px;
+.exsemple-1 {
+  color: #000;
+  padding: 20px 0 0 10px;
+  text-shadow: 2px 1px 3px #8e8e8c;
 }
 
-h2 {
-  color: #660000;
-  padding: 20px 0 0 5px;
+.exsemple-2 {
+  color: #000;
+  padding: 15px 0 0 10px;
+  text-shadow: 5px 5px 3px #8e8e8c;
 }
 
-p {
-  padding: 20px 3px 0 30px;
-  font-size: 20px;
+.exsemple-3 {
+  color: #000;
+  padding: 15px 0 0 10px;
+  text-shadow: 8px 8px 3px #8e8e8c;
 }
 
-.drink {
-  padding: 20px 3px 15px 30px;
-}
-
-.discription {
-  border-bottom: 2px solid #7e7e7e;
-  margin-left: 5px;
+.exsemple-4 {
+  color: #000;
+  padding: 15px 0 30px 10px;
+  text-shadow: 15px 15px 3px #8e8e8c;
 }
 /*# sourceMappingURL=style.css.map */
